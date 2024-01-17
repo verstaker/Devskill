@@ -76,3 +76,17 @@ $('.course__menu-one').click(function(){
 		$(this).addClass('course__menu-one_active');
 	}
 })
+
+$('.question').click(function(){
+	if ($(this).hasClass('question_active')) {
+		$($(this)).removeClass('question_active');
+	} else {
+		$(this).addClass('question_active');
+	}
+})
+
+$('.skill__title-second').click(function(){
+	$(this).removeClass('skill__title-second');
+	$('.skill__sidebar-menu-main').fadeIn();
+	$('.skill__sidebar-menu-second').fadeOut();
+})

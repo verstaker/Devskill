@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="viewport" content="initial-scale=1, maximum-scale=1" />
+        <meta name="format-detection" content="telephone=no">
+		<title>Devskill Academy - Главная</title>
+		<meta content="" />
+		<!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+		
+	</head>
+	<body>
+        <div class="maincontainer">
+            <div class="container">
+                <header class="header header_skill">
+                    <div class="header__inner">
+                        <div class="header__logo">
+                            <img src="img/logo.png">
+                        </div>
+                        <nav>
+                            <a href="#">Банк знаний</a>
+                            <a href="#">Каталог</a>
+                            <a href="#">Профориентация</a>
+                            <a href="#">Для учителей</a>
+                            <a href="#">О нас</a>
+                            <a href="#">Стажировки</a>
+                            <a href="#">Новости</a>
+                        </nav>
+                        <div class="header__lk">
+                            <div class="header__lk-img">
+                                <img src="img/nofotolk.png">
+                            </div>
+                            <div class="header__lk-name">
+                                Василий Пупкин
+                            </div>
+                        </div>
+                    </div>
+                </header>
+                <section class="skill">
+                    <div class="skill__title skill__title-second">
+                        <div class="skill__title-inner">
+                                <span class="skill__title-arrow">&larr;</span>
+                                <span class="skill__title-h1">Название курса</span>
+                            </div>
+                        </div>
+                    <div class="skill__inner">
+                        <div class="skill__sidebar">
+                            
+                            <div class="skill__sidebar-inner">
+                                <div class="skill__progress">
+                                    <div class="skill__progress-title">
+                                        Прогресс курса <span>40%</span>
+                                    </div>
+                                    <div class="skill__progress-line">
+                                        <span style="width: 40%"></span>
+                                    </div>
+                                </div>
+                                
+                                <div class="skill__sidebar-menu-main">
+                                    <ul class="skill__menu-main-list">
+                                        <li class="skill__menu-main-item_active"><a href="#">Тема 1</a></li>
+                                        <li><a href="#">Тема 2</a></li>
+                                        <li><a href="#">Тема 3</a></li>
+                                        <li><a href="#">Тема 4</a></li>
+                                        <li><a href="#">Тема 5</a></li>
+                                    </ul>
+                                </div>
+                                <div class="skill__sidebar-menu-second">
+                                    <div class="skill__menu-second-title">Тема 1</div>
+                                    <div class="skill__menu-second-block">
+                                        <div class="skill__menu-second-progress"></div>
+                                        <ul class="skill__menu-second-list">
+                                            <li class="skill__menu-second_active">
+                                                <a href="#">
+                                                    <svg width="18" height="21" viewBox="0 0 18 21">
+                                                        <image width="18" height="21" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAAVCAYAAABLy77vAAABkUlEQVQ4jZ3Uz4tNcRjH8dc99yIlEQ0WynI2Sln4sWGhRkqUhaWysJrl/AEWdpNZYKeUYnex1GxJ2CgiPxZSFCWmNM3QNEwPz62vzrnXGZ966pye5/s+z/fzfb6n0+8/msIFrLN6vcIe/OhhGos4hzUtUT9xBKdwEZO9TFzH1Vr5aM3iMHbEywDUKQoiMYan2Il9qNDFezzEcsYvzJegqgBFy5M4gLM4X+TCgs0J6ZQN9NTVx4P04TJuFx9aCmNrK4aA4qtv8/lrxj9VtSn6X9AELmXuIJ7gBV7jZq16BCi0JY3s5mxVGetrlakmj2YzQvexu1bRoGEdrVpNHW3EdrzJwdxV2PAF73IM/lJTRydxJ/05g8cZMdHPivvYTR83GNLRXbzMgbyRM1XlojksZN1COXNNoM8ZoY+4Vav4o0/Yjw9NoGMYx9q8kKMU+W85EnMD0Hdsy9/J1hGLmxTAzgAUp7MpIfdwqCUwIHHCzwMUt/k09mbyGk7geEtQ7OS3R0fzdxnkK7m9uFPhVxstY2YF8XdQq/OeHXgAAAAASUVORK5CYII="/>
+                                                    </svg>
+                                                    <span>Краткая справка перед началом</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <svg width="22" height="19" viewBox="0 0 22 19">
+                                                        <image width="22" height="19" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAATCAYAAACUef2IAAABhUlEQVQ4jaXVP0hVYRzG8Y9XW6KipTEswrYSWlukyEVaAkFEtLZqlRoCQdBFpKlBIsK/CYGTGAkuSktLDbrVUnMNQhhoKvHC7yDd9+q99/SFw7nveZ/znOf+zvt7T8vS0ke4hCcYxBnleIcXWMNhG25gIwz/YBstTVqfQk8cIxhPxtMxcR+LYV6Ga1jAGN5XcD0MZ//DNLGF4fB4VImL65mMs5jHDiZiXI+v+I32wni/xg0DcRziadzUnan+5aAYVbKpIy7HrwvxQs5hFcu4mKmrOMm4IP2bcXRGye7iCx7GS69JI8YFqRR30IefmMJopgqaMRY1fIubMX6QKUoat6IXH2I8mymCtuzK8VzBS9zGLh7j9XHqRhKnlM+iAW5hBVejxnuZuoHE3+L8I5ojne/FkqtLkbjWA1LXvYm5yShFPdPW6sRdmKsS/YrOa4YOnMb3lHgT/Rg6acE3QNrdnofHVEqc1mLaj2fwKjadMvtxSppI7f8pGX+OpxVfkPMlEx99QfAXiwlI0Lx1ggcAAAAASUVORK5CYII="/>
+                                                    </svg>
+                                                    <span>Hello world</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <svg width="20" height="20" viewBox="0 0 20 20">
+                                                        <image width="20" height="20" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAB8klEQVQ4jXXUS4iOURgH8J/JLKiRohhZsEGaaMrGZpJyybXcUpqRTFFK2crS7FyKCSXjMiU0oyQWUkpu5ZKSIhZKuWXlulDomOc135zzzr++znmf8z//83zPbczAwAM1mIVd2IjW7Pg2juFieY2xhYVD2BP7J+jDp+C2Yy0u4DA24N5ogs14iPnoRQ8+FM8NYQX6cRfbcKZO8BHmYQluFhIjcR2TcBWn8QWXE6MpaL0htjgTm46BuPAGnZnw6nBkEC2VYGsk4CRuNZCn4CXWRyK+4VyEohGLYt9fCe4Lw86MeAnj48FVaMNR7MWcBt73iGFKVltTBPUpfmeCHbiTJWZ3rOsy7oFYu1JSxlUBzdCNZ5ltZqwfM/vzyokqy58LOU5l37PD418Rjjq0VFlurjlsxA68wOSohK8FYwi/Kw/bi6OROIFXWBAllGNCfL9uioRsKigl+kYRE1WQMJgE90d5dBS0YSwdbRgEeqJO/wkORlKuFLRhHMeawjqELsyI8vtZJWU5JkZv1uE+3tbYF+IsbkSL/u/lx9gesUjjaGp2sbOmVruDm7K/rDJWggkp6GmgplffR2+nfWNJTcPW6PF0nqbO3MZX8gGb3E5D4Uh4kH51eIctOJ8f1k3sNJ034yBWxnxMVfAnPLsWf/9HcRN/AffwZoYIA2umAAAAAElFTkSuQmCC"/>
+                                                    </svg>
+                                                    <span>Терминология</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <svg width="21" height="16" viewBox="0 0 21 16">
+                                                        <image width="21" height="16" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAQCAYAAAD52jQlAAABlElEQVQ4jZXUS4iPURjH8c+4ZSVRpiyUspFsrMQwM2lGEgpN9pIU5bqyUDZWNGMyU4PYqlHERiQNNRNF2Zga9qykcSuFjv/zNmfOO///5Lc573ku3/Occ57zto2OTvgPbcZFHMOHZmkLapbW2o0efGsV1Qx6BXsL21J04TU+4hTO1DKxqJgvxiCO4gce4E/4lqEjfGLR7fiFq60qvRZJ/TifAZM2xXgnxm48xgBONIPewBFcjq2VSr53+JrZD+BhgE9XvAo6jMPhPFvDNbQ/AL8zW7qwPXgaxRyvzvQJdkR1/TVUQ1tjHCuOpFIvbkVRK1Klb8KxsRY6o0P4glc1T0PLsTa+J1Ol5zCFoXDsw3SWsASdKRifajjao81WYhteVGc6EreebvQ+FmZJ67Aet2s41uB52jJ2JaCiT2+iDdfxDDvxHRsiroSuwjhWY0t8/1PZp1VbpSa/ELa+eOc/i9h78SC6c2BZaQ7+jLcxP5gtkOtkQNOuZmkuaNLdGNPBJz2aI+Zlk9x5/1Kp4kt4P0/cjPAX24RNshyFX9EAAAAASUVORK5CYII="/>
+                                                    </svg>
+                                                    <span>Первый шаг</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <svg width="18" height="21" viewBox="0 0 18 21">
+                                                        <image width="18" height="21" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAAVCAYAAABLy77vAAABkUlEQVQ4jZ3Uz4tNcRjH8dc99yIlEQ0WynI2Sln4sWGhRkqUhaWysJrl/AEWdpNZYKeUYnex1GxJ2CgiPxZSFCWmNM3QNEwPz62vzrnXGZ966pye5/s+z/fzfb6n0+8/msIFrLN6vcIe/OhhGos4hzUtUT9xBKdwEZO9TFzH1Vr5aM3iMHbEywDUKQoiMYan2Il9qNDFezzEcsYvzJegqgBFy5M4gLM4X+TCgs0J6ZQN9NTVx4P04TJuFx9aCmNrK4aA4qtv8/lrxj9VtSn6X9AELmXuIJ7gBV7jZq16BCi0JY3s5mxVGetrlakmj2YzQvexu1bRoGEdrVpNHW3EdrzJwdxV2PAF73IM/lJTRydxJ/05g8cZMdHPivvYTR83GNLRXbzMgbyRM1XlojksZN1COXNNoM8ZoY+4Vav4o0/Yjw9NoGMYx9q8kKMU+W85EnMD0Hdsy9/J1hGLmxTAzgAUp7MpIfdwqCUwIHHCzwMUt/k09mbyGk7geEtQ7OS3R0fzdxnkK7m9uFPhVxstY2YF8XdQq/OeHXgAAAAASUVORK5CYII="/>
+                                                    </svg>
+                                                    <span>Источники информации</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <svg width="22" height="19" viewBox="0 0 22 19">
+                                                        <image width="22" height="19" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAATCAYAAACUef2IAAABhUlEQVQ4jaXVP0hVYRzG8Y9XW6KipTEswrYSWlukyEVaAkFEtLZqlRoCQdBFpKlBIsK/CYGTGAkuSktLDbrVUnMNQhhoKvHC7yDd9+q99/SFw7nveZ/znOf+zvt7T8vS0ke4hCcYxBnleIcXWMNhG25gIwz/YBstTVqfQk8cIxhPxtMxcR+LYV6Ga1jAGN5XcD0MZ//DNLGF4fB4VImL65mMs5jHDiZiXI+v+I32wni/xg0DcRziadzUnan+5aAYVbKpIy7HrwvxQs5hFcu4mKmrOMm4IP2bcXRGye7iCx7GS69JI8YFqRR30IefmMJopgqaMRY1fIubMX6QKUoat6IXH2I8mymCtuzK8VzBS9zGLh7j9XHqRhKnlM+iAW5hBVejxnuZuoHE3+L8I5ojne/FkqtLkbjWA1LXvYm5yShFPdPW6sRdmKsS/YrOa4YOnMb3lHgT/Rg6acE3QNrdnofHVEqc1mLaj2fwKjadMvtxSppI7f8pGX+OpxVfkPMlEx99QfAXiwlI0Lx1ggcAAAAASUVORK5CYII="/>
+                                                    </svg>
+                                                    <span>Числовые типы данных</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <svg width="18" height="21" viewBox="0 0 18 21">
+                                                        <image width="18" height="21" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAAVCAYAAABLy77vAAABkUlEQVQ4jZ3Uz4tNcRjH8dc99yIlEQ0WynI2Sln4sWGhRkqUhaWysJrl/AEWdpNZYKeUYnex1GxJ2CgiPxZSFCWmNM3QNEwPz62vzrnXGZ966pye5/s+z/fzfb6n0+8/msIFrLN6vcIe/OhhGos4hzUtUT9xBKdwEZO9TFzH1Vr5aM3iMHbEywDUKQoiMYan2Il9qNDFezzEcsYvzJegqgBFy5M4gLM4X+TCgs0J6ZQN9NTVx4P04TJuFx9aCmNrK4aA4qtv8/lrxj9VtSn6X9AELmXuIJ7gBV7jZq16BCi0JY3s5mxVGetrlakmj2YzQvexu1bRoGEdrVpNHW3EdrzJwdxV2PAF73IM/lJTRydxJ/05g8cZMdHPivvYTR83GNLRXbzMgbyRM1XlojksZN1COXNNoM8ZoY+4Vav4o0/Yjw9NoGMYx9q8kKMU+W85EnMD0Hdsy9/J1hGLmxTAzgAUp7MpIfdwqCUwIHHCzwMUt/k09mbyGk7geEtQ7OS3R0fzdxnkK7m9uFPhVxstY2YF8XdQq/OeHXgAAAAASUVORK5CYII="/>
+                                                    </svg>
+                                                    <span>Источники информации</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <svg width="22" height="19" viewBox="0 0 22 19">
+                                                        <image width="22" height="19" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAATCAYAAACUef2IAAABhUlEQVQ4jaXVP0hVYRzG8Y9XW6KipTEswrYSWlukyEVaAkFEtLZqlRoCQdBFpKlBIsK/CYGTGAkuSktLDbrVUnMNQhhoKvHC7yDd9+q99/SFw7nveZ/znOf+zvt7T8vS0ke4hCcYxBnleIcXWMNhG25gIwz/YBstTVqfQk8cIxhPxtMxcR+LYV6Ga1jAGN5XcD0MZ//DNLGF4fB4VImL65mMs5jHDiZiXI+v+I32wni/xg0DcRziadzUnan+5aAYVbKpIy7HrwvxQs5hFcu4mKmrOMm4IP2bcXRGye7iCx7GS69JI8YFqRR30IefmMJopgqaMRY1fIubMX6QKUoat6IXH2I8mymCtuzK8VzBS9zGLh7j9XHqRhKnlM+iAW5hBVejxnuZuoHE3+L8I5ojne/FkqtLkbjWA1LXvYm5yShFPdPW6sRdmKsS/YrOa4YOnMb3lHgT/Rg6acE3QNrdnofHVEqc1mLaj2fwKjadMvtxSppI7f8pGX+OpxVfkPMlEx99QfAXiwlI0Lx1ggcAAAAASUVORK5CYII="/>
+                                                    </svg>
+                                                    <span>Числовые типы данных</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <svg width="22" height="19" viewBox="0 0 22 19">
+                                                        <image width="22" height="19" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAATCAYAAACUef2IAAABhUlEQVQ4jaXVP0hVYRzG8Y9XW6KipTEswrYSWlukyEVaAkFEtLZqlRoCQdBFpKlBIsK/CYGTGAkuSktLDbrVUnMNQhhoKvHC7yDd9+q99/SFw7nveZ/znOf+zvt7T8vS0ke4hCcYxBnleIcXWMNhG25gIwz/YBstTVqfQk8cIxhPxtMxcR+LYV6Ga1jAGN5XcD0MZ//DNLGF4fB4VImL65mMs5jHDiZiXI+v+I32wni/xg0DcRziadzUnan+5aAYVbKpIy7HrwvxQs5hFcu4mKmrOMm4IP2bcXRGye7iCx7GS69JI8YFqRR30IefmMJopgqaMRY1fIubMX6QKUoat6IXH2I8mymCtuzK8VzBS9zGLh7j9XHqRhKnlM+iAW5hBVejxnuZuoHE3+L8I5ojne/FkqtLkbjWA1LXvYm5yShFPdPW6sRdmKsS/YrOa4YOnMb3lHgT/Rg6acE3QNrdnofHVEqc1mLaj2fwKjadMvtxSppI7f8pGX+OpxVfkPMlEx99QfAXiwlI0Lx1ggcAAAAASUVORK5CYII="/>
+                                                    </svg>
+                                                    <span>Числовые типы данных</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <svg width="22" height="19" viewBox="0 0 22 19">
+                                                        <image width="22" height="19" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAATCAYAAACUef2IAAABhUlEQVQ4jaXVP0hVYRzG8Y9XW6KipTEswrYSWlukyEVaAkFEtLZqlRoCQdBFpKlBIsK/CYGTGAkuSktLDbrVUnMNQhhoKvHC7yDd9+q99/SFw7nveZ/znOf+zvt7T8vS0ke4hCcYxBnleIcXWMNhG25gIwz/YBstTVqfQk8cIxhPxtMxcR+LYV6Ga1jAGN5XcD0MZ//DNLGF4fB4VImL65mMs5jHDiZiXI+v+I32wni/xg0DcRziadzUnan+5aAYVbKpIy7HrwvxQs5hFcu4mKmrOMm4IP2bcXRGye7iCx7GS69JI8YFqRR30IefmMJopgqaMRY1fIubMX6QKUoat6IXH2I8mymCtuzK8VzBS9zGLh7j9XHqRhKnlM+iAW5hBVejxnuZuoHE3+L8I5ojne/FkqtLkbjWA1LXvYm5yShFPdPW6sRdmKsS/YrOa4YOnMb3lHgT/Rg6acE3QNrdnofHVEqc1mLaj2fwKjadMvtxSppI7f8pGX+OpxVfkPMlEx99QfAXiwlI0Lx1ggcAAAAASUVORK5CYII="/>
+                                                    </svg>
+                                                    <span>Числовые типы данных</span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill__content">
+                            <div class="skill__content-inner">
+                                <h1>Лекция 1 - переменные</h1>
+                                <div class="skill__video">
+                                    <img src="img/video-image.jpg">
+                                    <h2>Содержание видео</h2>
+                                    <div class="skill__video-list">
+                                        <p>Локальные и глобальные переменные</p>
+                                        <p>00:10 — Глобальные переменные.</p>
+                                        <p>00:30 — Объявление глобальной переменной.</p>
+                                        <p>01:40 — Определение: глобальная переменная — к которой имеют доступ разные методы.</p>
+                                        <p>01:50 — Замена глобальных переменных на локальные.</p>
+                                        <p>02:50 — Минусы глобальных переменных. В больших проектах сложно отследить изменения глобальных переменных, это может привести к ошибкам.</p>
+                                        <p>04:10 — Значение глобальных переменных по умолчанию.</p>
+                                        <p>06:40 — Область видимости переменных.</p>
+                                        <p>09:25 — “эмпирическое” правило видимости переменных. Они видны внутри { }
+                                        Ошибка в содержании? Предложите исправление!</p>
+                                    </div>
+                                </div>
+                                <h2>Заметки по лекции</h2>
+                                <div class="skill__code">
+                                    <img src="img/code.jpg">
+                                </div>
+                                <p>Переменная доступна (грубо) внутри тех фигурных скобок, где она определена. Область кода, из которой допустимо обращение к переменной, называется "областью видимости". Локальная переменная "перекрывает" глобальную с тем же именем. Однако локальная переменная не может перекрыть другую локальную переменную с тем же именем — возникнет ошибка компиляции.</p>
+                                <div class="skill__buttons">
+                                    <a href="#" class="button button_skill-prev">Назад</a>
+                                    <a href="#" class="button button_skill-next">Вперед</a>
+                                </div>
+                            </div>
+                            <div class="comments">
+                                <h2>Комментарии</h2>
+                                <div class="comments__inner">
+                                <div class="comment__title">
+                                    <span class="comment__count">3</span> комментария
+                                </div>
+                                <div class="comment__area">
+                                    <textarea placeholder="Мой комментарий..."></textarea>
+                                </div>
+                                <div class="comment__button">
+                                    <div class="button button_comment-cancel">Отмена</div>
+                                    <div class="button button_comment-send">Оставить комментарий</div>
+                                </div>
+                                <div class="comment__list">
+                                    <div class="comment__branch">
+                                        <div class="comment__one">
+                                            <div class="comment__avatar">
+                                                <img src="img/avatar.jpg">
+                                            </div>
+                                            <div class="comment__block">
+                                                <div class="comment__name">Егений</div>
+                                                <div class="comment__time">Два часа назад</div>
+                                                <div class="comment__text">Загрузка, распаковка и прочие операции обновления выполняются в фоновом режиме, давая пользователю возможность продолжать работать с обновляемым приложением. После завершения подготовительного этапа появится предупреждение о том, что необходима перезагрузка для копирования новых файлов. Обновление применится при ближайшем закрытии инструмента.</div>
+                                                <div class="comment__likes">
+                                                    <div class="comment__like comment__like-good">
+                                                        <span>
+                                                            <svg viewBox="0 0 800 800">
+                                                            <path d="M530,150c0-50-49.4-83.3-88-83.3c-26.9,0-29,20.4-33.1,60.7c-1.8,17.7-4,39.1-8.9,64.3 c-12.9,66.7-57.3,152-99.9,177.5v197.5c-0.1,75,24.9,100,133.2,100h125.8c72.5,0,90.1-47.8,96.6-65.5l0.4-1.2 c3.8-10.2,11.9-18.2,21.3-27.3c10.3-10.2,22.1-21.8,30.9-39.3c10.4-20.8,9-39.2,7.8-55.7c-0.8-10-1.5-19.2,0.6-27.7 c2.1-9,4.9-15.8,7.5-22.4c4.8-11.9,9.2-22.9,9.2-44.3c0-50-24.9-83.3-77.2-83.3H516.7C516.7,300.1,530,200,530,150z M183.3,333.3 c-27.6,0-50,22.4-50,50v233.3c0,27.6,22.4,50,50,50s50-22.4,50-50V383.3C233.3,355.7,210.9,333.3,183.3,333.3z"/>
+                                                            </svg>
+                                                        </span>
+                                                        <span class="comment__like-count">3</span>
+                                                    </div>
+                                                    <div class="comment__like comment__like-bad">
+                                                        <span>
+                                                            <svg viewBox="0 0 800 800" >
+                                                            <path class="st0" d="M516.7,433.4h139.5c52.3,0,77.2-33.3,77.2-83.3c0-21.4-4.4-32.4-9.2-44.3c-2.6-6.6-5.4-13.4-7.5-22.4 c-2.1-8.5-1.4-17.7-0.6-27.7c1.2-16.5,2.6-34.9-7.8-55.7c-8.8-17.5-20.6-29.1-30.9-39.3c-9.4-9.1-17.5-17.1-21.3-27.3l-0.4-1.2 c-6.5-17.7-24.1-65.5-96.6-65.5H433.3c-108.3,0-133.3,25-133.2,100v197.5c42.6,25.5,87,110.8,99.9,177.5c4.9,25.2,7.1,46.6,8.9,64.3 c4.1,40.3,6.2,60.7,33.1,60.7c38.6,0,88-33.3,88-83.3S516.7,433.3,516.7,433.4z M233.3,350.1V116.8c0-27.6-22.4-50-50-50 s-50,22.4-50,50v233.3c0,27.6,22.4,50,50,50S233.3,377.7,233.3,350.1z"/>
+                                                            </svg>
+                                                        </span>
+                                                        <span class="comment__like-count">3</span>
+                                                    </div>
+                                                    <div class="comment__like-answer">Ответить</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="comment__one comment__one_respond">
+                                            <div class="comment__avatar">
+                                                <img src="img/avatar.jpg">
+                                            </div>
+                                            <div class="comment__block">
+                                                <div class="comment__name">Егений</div>
+                                                <div class="comment__time">Два часа назад</div>
+                                                <div class="comment__text">Загрузка, распаковка и прочие операции обновления выполняются в фоновом режиме, давая пользователю возможность продолжать работать с обновляемым приложением. После завершения подготовительного этапа появится предупреждение о том, что необходима перезагрузка для копирования новых файлов. Обновление применится при ближайшем закрытии инструмента.</div>
+                                                <div class="comment__likes">
+                                                    <div class="comment__like comment__like-good">
+                                                        <span>
+                                                            <svg viewBox="0 0 800 800">
+                                                            <path d="M530,150c0-50-49.4-83.3-88-83.3c-26.9,0-29,20.4-33.1,60.7c-1.8,17.7-4,39.1-8.9,64.3 c-12.9,66.7-57.3,152-99.9,177.5v197.5c-0.1,75,24.9,100,133.2,100h125.8c72.5,0,90.1-47.8,96.6-65.5l0.4-1.2 c3.8-10.2,11.9-18.2,21.3-27.3c10.3-10.2,22.1-21.8,30.9-39.3c10.4-20.8,9-39.2,7.8-55.7c-0.8-10-1.5-19.2,0.6-27.7 c2.1-9,4.9-15.8,7.5-22.4c4.8-11.9,9.2-22.9,9.2-44.3c0-50-24.9-83.3-77.2-83.3H516.7C516.7,300.1,530,200,530,150z M183.3,333.3 c-27.6,0-50,22.4-50,50v233.3c0,27.6,22.4,50,50,50s50-22.4,50-50V383.3C233.3,355.7,210.9,333.3,183.3,333.3z"/>
+                                                            </svg>
+                                                        </span>
+                                                        <span class="comment__like-count">3</span>
+                                                    </div>
+                                                    <div class="comment__like comment__like-bad">
+                                                        <span>
+                                                            <svg viewBox="0 0 800 800" >
+                                                            <path class="st0" d="M516.7,433.4h139.5c52.3,0,77.2-33.3,77.2-83.3c0-21.4-4.4-32.4-9.2-44.3c-2.6-6.6-5.4-13.4-7.5-22.4 c-2.1-8.5-1.4-17.7-0.6-27.7c1.2-16.5,2.6-34.9-7.8-55.7c-8.8-17.5-20.6-29.1-30.9-39.3c-9.4-9.1-17.5-17.1-21.3-27.3l-0.4-1.2 c-6.5-17.7-24.1-65.5-96.6-65.5H433.3c-108.3,0-133.3,25-133.2,100v197.5c42.6,25.5,87,110.8,99.9,177.5c4.9,25.2,7.1,46.6,8.9,64.3 c4.1,40.3,6.2,60.7,33.1,60.7c38.6,0,88-33.3,88-83.3S516.7,433.3,516.7,433.4z M233.3,350.1V116.8c0-27.6-22.4-50-50-50 s-50,22.4-50,50v233.3c0,27.6,22.4,50,50,50S233.3,377.7,233.3,350.1z"/>
+                                                            </svg>
+                                                        </span>
+                                                        <span class="comment__like-count">3</span>
+                                                    </div>
+                                                    <div class="comment__like-answer">Ответить</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="comment__one comment__one_respond">
+                                            <div class="comment__avatar">
+                                                <img src="img/avatar.jpg">
+                                            </div>
+                                            <div class="comment__block">
+                                                <div class="comment__area">
+                                                    <textarea placeholder="Мой комментарий..."></textarea>
+                                                </div>
+                                                <div class="comment__button">
+                                                    <div class="button button_comment-cancel">Отмена</div>
+                                                    <div class="button button_comment-send">Оставить комментарий</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="comment__branch">
+                                        <div class="comment__one">
+                                            <div class="comment__avatar">
+                                                <img src="img/avatar.jpg">
+                                            </div>
+                                            <div class="comment__block">
+                                                <div class="comment__name">Егений</div>
+                                                <div class="comment__time">Два часа назад</div>
+                                                <div class="comment__text">Загрузка, распаковка и прочие операции обновления выполняются в фоновом режиме, давая пользователю возможность продолжать работать с обновляемым приложением. После завершения подготовительного этапа появится предупреждение о том, что необходима перезагрузка для копирования новых файлов. Обновление применится при ближайшем закрытии инструмента.</div>
+                                                <div class="comment__likes">
+                                                    <div class="comment__like comment__like-good">
+                                                        <span>
+                                                            <svg viewBox="0 0 800 800">
+                                                            <path d="M530,150c0-50-49.4-83.3-88-83.3c-26.9,0-29,20.4-33.1,60.7c-1.8,17.7-4,39.1-8.9,64.3 c-12.9,66.7-57.3,152-99.9,177.5v197.5c-0.1,75,24.9,100,133.2,100h125.8c72.5,0,90.1-47.8,96.6-65.5l0.4-1.2 c3.8-10.2,11.9-18.2,21.3-27.3c10.3-10.2,22.1-21.8,30.9-39.3c10.4-20.8,9-39.2,7.8-55.7c-0.8-10-1.5-19.2,0.6-27.7 c2.1-9,4.9-15.8,7.5-22.4c4.8-11.9,9.2-22.9,9.2-44.3c0-50-24.9-83.3-77.2-83.3H516.7C516.7,300.1,530,200,530,150z M183.3,333.3 c-27.6,0-50,22.4-50,50v233.3c0,27.6,22.4,50,50,50s50-22.4,50-50V383.3C233.3,355.7,210.9,333.3,183.3,333.3z"/>
+                                                            </svg>
+                                                        </span>
+                                                        <span class="comment__like-count">3</span>
+                                                    </div>
+                                                    <div class="comment__like comment__like-bad">
+                                                        <span>
+                                                            <svg viewBox="0 0 800 800" >
+                                                            <path class="st0" d="M516.7,433.4h139.5c52.3,0,77.2-33.3,77.2-83.3c0-21.4-4.4-32.4-9.2-44.3c-2.6-6.6-5.4-13.4-7.5-22.4 c-2.1-8.5-1.4-17.7-0.6-27.7c1.2-16.5,2.6-34.9-7.8-55.7c-8.8-17.5-20.6-29.1-30.9-39.3c-9.4-9.1-17.5-17.1-21.3-27.3l-0.4-1.2 c-6.5-17.7-24.1-65.5-96.6-65.5H433.3c-108.3,0-133.3,25-133.2,100v197.5c42.6,25.5,87,110.8,99.9,177.5c4.9,25.2,7.1,46.6,8.9,64.3 c4.1,40.3,6.2,60.7,33.1,60.7c38.6,0,88-33.3,88-83.3S516.7,433.3,516.7,433.4z M233.3,350.1V116.8c0-27.6-22.4-50-50-50 s-50,22.4-50,50v233.3c0,27.6,22.4,50,50,50S233.3,377.7,233.3,350.1z"/>
+                                                            </svg>
+                                                        </span>
+                                                        <span class="comment__like-count">3</span>
+                                                    </div>
+                                                    <div class="comment__like-answer">Ответить</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                        <footer>
+                <div class="footer__inner">
+                    <div class="footer__row">
+                        <div class="footer__block">API</div>
+                        <div class="footer__block">
+                            <div class="footer__logo">
+                                <img src="img/logo.png">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer__row">© 2011-2023 гг. Сайт не является публичной офертой и носит информационный характер. Все материалы данного сайта являются объектами авторского права (в том числе дизайн). Запрещается копирование, распространение (в том числе путем копирования на другие сайты и ресурсы в Интернете) или любое иное использование информации и объектов без предварительного согласия правообладателя.</div>
+                </div>
+            </footer>
+                        </div>
+                    </div>
+                    
+                </section>
+            </div>
+            
+        </div>
+        <div class="b-popup" id="popup">
+    		<div class="closer-big"></div>
+            <div class="b-popup-content">
+                <div class="popup-title"></div>
+                <div class="popup-desc"></div>
+                <div class="form-block">
+                    <form method="post" name="mtForm1" id="mtForm1" class="forma">
+                        <input type="hidden" name="data_form" id="data_form" value="">
+                        <input type="hidden" name="no" value="no" />
+                        <div class="form-field">
+                            <label>
+                                <span>Ваше имя:</span>
+                                <input type="text" name="name" required="required">
+                            </label>
+                        </div>
+                        <div class="form-field">
+                            <label>
+                                <span>Ваш телефон:</span>
+                                <input type="tel" name="phone" required="required" class="phone_valid">
+                            </label>
+                        </div>
+                        <div class="form-field">
+                            <input type="submit" name="submit" value="Отправить заявку">
+                        </div>
+                    </form>
+                </div>
+                <div class="close-up">
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+		</div>
+        <div class="b-popup" id="message">
+            <div class="closer-big closer-big-all"></div>
+            <div class="b-popup-content">
+                <div class="popup-title">Cпасибо вам!</div>
+                <div class="popup-desc">Ваша заявка успешно отправлена. <br>C вами свяжутся в ближайшее время.</div>
+                <div class="close-up close-up-all">
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+        </div>
+        <link rel="stylesheet" type="text/css" href="slick/slick-theme.css">
+        <link rel="stylesheet" type="text/css" href="slick/slick.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
+		<!--<link rel="stylesheet" href="fancybox/dist/jquery.fancybox.min.css" />-->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+        <!--<script src="fancybox/dist/jquery.fancybox.min.js"></script>-->
+        <script src="slick/slick.min.js"></script>
+		<script src="js/my.script.js"></script>
+	</body>
+</html>
